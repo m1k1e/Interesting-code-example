@@ -27,7 +27,7 @@ public class PasswordGenerator
      Random rnd = new Random();
      
      char[] password = new char[len];
-     int index = 0;
+     //int index = 0;
      for (int i = 0; i < len; i++) 
      {
          password[i] = passSymbols.charAt(rnd.nextInt(passSymbols.length()));
